@@ -7,7 +7,6 @@ h2, p {
   margin: 10px;
 }
 
-<!--Navigation Bar-->
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,7 +16,6 @@ ul {
   justify-content: right;
 }
 
-<!--Navigation Bar Links-->
 ul li a {
   display: block;
   color: white;
