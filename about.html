@@ -1,76 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <title>About Us</title>
     <style>
-        /* Basic styling to make the page readable */
         body {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+          margin: 0;
+          padding: 0;
         }
-        navbar {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            justify-content: right;
+        
+        h2, p {
+          margin: 10px;
         }
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #0066cc;
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: #333333;
+          display: flex;
+          justify-content: right;
         }
-        section {
-            margin-bottom: 30px;
+        
+        ul li a {
+          display: block;
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
         }
-        footer {
-            border-top: 1px solid #ddd;
-            padding-top: 10px;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #666;
+        
+        ul li a:hover {
+          background-color: #111111;
         }
     </style>
 </head>
 <body>
 
     <!-- Navigation Header -->
-    <navbar>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </navbar>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <!--<li><a href="">News</a></li>-->
+      <!--<li><a href="">Contact</a></li>-->
+      <li><a href="about.html">About</a></li>
+    </ul>
 
-    <!-- Main Page Content -->
-    <main>
-        <section>
-            <h1>About Us</h1>
-            <p>Welcome to [Your Brand/Name]. We are dedicated to [briefly state what you do or your core purpose].</p>
-        </section>
-
-        <section>
-            <h2>Our Story</h2>
-            <p>Founded in [Year], we started with a simple goal: [explain the problem you solve or why you started]. Since then, we have grown into [mention a key milestone or current focus].</p>
-        </section>
-
-        <section>
-            <h2>What We Value</h2>
-            <ul>
-                <li><strong>Quality:</strong> We prioritize doing things right the first time.</li>
-                <li><strong>Transparency:</strong> Honest communication is at the core of our work.</li>
-                <li><strong>Community:</strong> We build solutions with our users in mind.</li>
-            </ul>
-        </section>
-    </main>
-
-    <!-- Page Footer -->
-    <footer>
-        <p>&copy; 2026 [Your Brand/Name]. All rights reserved.</p>
-    </footer>
+    <!--Page Content-->
+    <h2>Horizontal Centered Navbar Using Flex</h2>
+    <p>Some text on the website.</p>
 
 </body>
 </html>
