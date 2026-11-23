@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about.html
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 announcements:
